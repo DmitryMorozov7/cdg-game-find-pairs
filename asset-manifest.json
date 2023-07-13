@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cdg-game-find-pairs/static/css/main.9f2540e8.css",
+    "main.js": "/cdg-game-find-pairs/static/js/main.d58efcb8.js",
+    "index.html": "/cdg-game-find-pairs/index.html",
+    "main.9f2540e8.css.map": "/cdg-game-find-pairs/static/css/main.9f2540e8.css.map",
+    "main.d58efcb8.js.map": "/cdg-game-find-pairs/static/js/main.d58efcb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f2540e8.css",
+    "static/js/main.d58efcb8.js"
+  ]
+}
