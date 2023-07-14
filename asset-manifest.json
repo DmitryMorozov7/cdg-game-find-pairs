@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/cdg-game-find-pairs/static/css/main.9f2540e8.css",
-    "main.js": "/cdg-game-find-pairs/static/js/main.d58efcb8.js",
+    "main.css": "/cdg-game-find-pairs/static/css/main.8f1e08d1.css",
+    "main.js": "/cdg-game-find-pairs/static/js/main.84a848dc.js",
+    "static/media/tennis.png": "/cdg-game-find-pairs/static/media/tennis.d06ff05535db78aea53a.png",
+    "static/media/basketball.png": "/cdg-game-find-pairs/static/media/basketball.8b7c0b92e9feb73fcb23.png",
+    "static/media/baseball.png": "/cdg-game-find-pairs/static/media/baseball.433ae810a486edc14f13.png",
     "index.html": "/cdg-game-find-pairs/index.html",
-    "main.9f2540e8.css.map": "/cdg-game-find-pairs/static/css/main.9f2540e8.css.map",
-    "main.d58efcb8.js.map": "/cdg-game-find-pairs/static/js/main.d58efcb8.js.map"
+    "main.8f1e08d1.css.map": "/cdg-game-find-pairs/static/css/main.8f1e08d1.css.map",
+    "main.84a848dc.js.map": "/cdg-game-find-pairs/static/js/main.84a848dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f2540e8.css",
-    "static/js/main.d58efcb8.js"
+    "static/css/main.8f1e08d1.css",
+    "static/js/main.84a848dc.js"
   ]
 }
