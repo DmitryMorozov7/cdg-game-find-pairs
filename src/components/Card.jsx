@@ -1,5 +1,6 @@
 import React from 'react';
 //import ".././index.css";
+import ask from '../img/ask.png'
 
 
 
@@ -19,7 +20,7 @@ const Card = ({ card, handleChoise, flipped, disabled }) => {
           src={card.src} />
         <img className='back bg-slate-400'
           onClick={handleClick}
-          src="/img/ask.png" /> 
+          src={ask} /> 
       </div>
     </div>
   )

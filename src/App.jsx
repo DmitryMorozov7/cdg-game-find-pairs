@@ -1,16 +1,24 @@
 import { useEffect, useState } from 'react';
 import './index.css';
 import Card from './components/Card';
+import bascet from './img/basketball.png'
+import box from './img/box.png'
+import baseball from './img/baseball.png'
+import football from './img/football.png'
+import judo from './img/judo.png'
+import pingpong from './img/ping-pong.png'
+import volleyball from './img/volleyball.png'
+import tennis from './img/tennis.png'
 
 const cardImages = [
-  { 'src': '/img/basketball.png', matched: false },
-  { 'src': '/img/box.png', matched: false },
-  { 'src': '/img/baseball.png', matched: false },
-  { 'src': '/img/football.png', matched: false },
-  { 'src': '/img/judo.png', matched: false },
-  { 'src': '/img/ping-pong.png', matched: false },
-  { 'src': '/img/tennis.png', matched: false },
-  { 'src': '/img/volleyball.png', matched: false },
+  { 'src': bascet, matched: false },
+  { 'src': box, matched: false },
+  { 'src': baseball, matched: false },
+  { 'src': football, matched: false },
+  { 'src': judo, matched: false },
+  { 'src': pingpong, matched: false },
+  { 'src': volleyball, matched: false },
+  { 'src': tennis, matched: false },
 ]
 
 const App = () => {
@@ -54,7 +62,6 @@ const App = () => {
         })
         resetTurn()
       } else {
-        console.log('not match')
         setTimeout(() => resetTurn(),  700)
       }
     }
@@ -75,7 +82,7 @@ const App = () => {
 
 
   return (
-    <div className='max-w-[860px] py-[40px] mx-auto'>
+    <div className='max-w-[660px] py-[40px] mx-auto'>
       <h1 className='text-white font-bold text-3xl'>FIND PAIRS GAME</h1>
       <button onClick={shufleCards} className='bg-none border-2 border-white py-[6px] px-[12px] rounded-[4px] text-white font-bold cursor-pointer text-[1rem] hover:bg-red-400 mt-[1rem]'
       >New Game</button>
